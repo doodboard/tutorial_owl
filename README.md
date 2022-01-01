@@ -156,6 +156,8 @@ Then solder the ProMicro in place, then solder the wires like shown above. Pay a
 
 Make sure there is no contact between exposed wire ends and the rest of the components. Using electrical tape to insulate the exposed ends after soldering is recommended.
 
+continue to [section](#leds)
+
 </details>
 
 <br/>
@@ -252,9 +254,14 @@ Here is an up-close image of what a soldered diode looks like:
 
 ![hotswap1](img/hotswap_1.jpg)
 
-Again, nothing fancy here. Place the hotswap sockets into the PCB, following the guidelines. <br/>
+Again, nothing fancy here. Place the hotswap sockets into the PCB, following the guidelines printed on the PCB. <br/>
 If you prefer to solder your switches directly to the PCB, you can skip this process, and solder in the switches later **after** installing the top plate. <br/>
+
+![Image of a thumb cluster options](img/thumb_cluster.jpg)
+
 Depending on how you would like to use your thumb row, you should solder your hotswap sockets **accordingly**.
+
+
 
 Here is an up-close image of what a soldered hotswap socket looks like:
 
@@ -379,7 +386,7 @@ Plug in the USB cable once again at this point and ensure **everything** checks 
 
 Place the bottom plate in position and screw in the 4 x M2 nuts to finish off the build. **Install switches and keycaps to your liking, and type away**!
 
-[**Here**](https://i.imgur.com/bLKk2QL.jpg) is the default **keymap** for reference. 
+[**Here**](img/KLE.jpg) is the default **keymap** for reference. 
 
 [**Here**](img/pinout_1.JPG) is the pinout diagram for troubleshooting. 
 
