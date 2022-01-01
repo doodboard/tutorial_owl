@@ -159,11 +159,11 @@ Make sure there is no contact between exposed wire ends and the rest of the comp
 
 ### Please flash and test your promicro before starting the build!
 
-If you chose to **disable the OLED**, download the hex file [**here**](hex/owl_NO_OLED.hex)
+If you chose to **disable the OLED**, right click to download the HEX file [**here**](hex/owl_NO_OLED.hex)
 
-If you chose to **enable the OLED**, and made the required modifications, download the hex file [**here**](hex/owl_YES_OLED.hex)
+If you chose to **enable the OLED**, and made the required modifications, right click to download the HEX file [**here**](hex/owl_YES_OLED.hex)
 
-If you wish to compile your own hex file, you can grab the **source code** [**here**](/source_code/owl.zip)
+If you wish to compile your own hex file, you can grab the **source code** by right clicking [**here**](/source_code/owl.zip)
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
 
