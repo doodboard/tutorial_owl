@@ -163,7 +163,7 @@ If you chose to **disable the OLED**, download the hex file [**here**](hex/owl_N
 
 If you chose to **enable the OLED**, and made the required modifications, download the hex file [**here**](hex/owl_YES_OLED.hex)
 
-If you wish to compile your own hex file, you can grab the **source code** [**here**](https://github.com/doodboard/source-code)
+If you wish to compile your own hex file, you can grab the **source code** [**here**](/source_code/owl.zip)
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
 
