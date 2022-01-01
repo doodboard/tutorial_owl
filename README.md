@@ -131,12 +131,9 @@ If you with to use the OLED, and are willing to make modification to the PCB,
 	<summary>CLICK ME</summary>
 <br/>
 
-<br/>
-
-### Please flash and test your promicro before starting the build!
-
 If you chose to **enable the OLED**, and made the required modifications, right click to download the HEX file [**here**](hex/owl_YES_OLED.hex)
 
+### Please flash and test your promicro before starting the modification following the steps [here](#flashing) witht the HEX file above.
 
 ![pinout-fix-2](img/pinout_fix_2.jpg)
 
