@@ -94,8 +94,60 @@ There are some items you will need in order to build your owl.
 
 | Label  | Part name         | Part quantity |
 |--------|-------------------|---------------|
-| **q**  | M3 16mm bolt      | 8             |
-| **r**  | M3 insert nuts    | 8             |
+| **p**  | M3 16mm bolt      | 8             |
+| **q**  | M3 insert nuts    | 8             |
+
+<br/>
+<br/>
+
+## WARNING
+
+![pinout-fix-1](img/pinout_fix_1.jpg)
+
+The pin assignment of 2 and 16, and 3 and 10 has been reversed on the owl PCB, causing the OLED display to not function.
+
+We had confirmed the functionality of the OLED module earlier in the prototyping phase, and assumed it remained so. 
+
+It is absolutely our fault for not catching it before shipping them out.
+
+<br/>
+
+Currently, there are two options:
+
+1. You can disable the OLED and solder on the ProMicro as is
+2. You can solder on the ProMicro with the pins 2, 3, 16, and 10 left empty, and install 4 jumper wires to the owl PCB which will enable the OLED
+
+We are in the process of revising the PCB, and we'll be shipping out replacement PCBs as soon as they reach us. 
+
+<br/>
+
+If you wish to continue the build with the OLED disabled, skip to next section.
+
+If you with to use the OLED, and are willing to make modification to the PCB, read below.
+
+<br/>
+
+![pinout-fix-2](img/pinout_fix_2.jpg)
+
+First step is to prepare your ProMicro. Cut the included legs like shown above
+
+<br/>
+
+![pinout-fix-3](img/pinout_fix_3.jpg)
+
+Then solder them in place like so.
+
+<br/>
+
+![pinout-fix-4](img/pinout_fix_4.jpg)
+
+Next step if so prepare the owl PCB. Grab 4 jumper wires, and solder them like shown above. Make sure there aren't any contacts between exposed wires ends and the rest of the components.
+
+<br/>
+
+![pinout-fix-5](img/pinout_fix_5.jpg)
+
+Then solder the ProMicro in place, then solder the wires like shown above. Pay attention to the color of the wires to see which wire goes where.
 
 <br/>
 <br/>
