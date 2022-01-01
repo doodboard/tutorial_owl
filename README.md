@@ -150,6 +150,8 @@ Next step if so prepare the owl PCB. Grab 4 jumper wires, and solder them like s
 
 Then solder the ProMicro in place, then solder the wires like shown above. Pay attention to the color of the wires to see which wire goes where.
 
+Make sure there is no contact between exposed wire ends and the rest of the components. Using electrical tape to insulate the exposed ends after soldering is recommended.
+
 <br/>
 <br/>
 
@@ -157,7 +159,9 @@ Then solder the ProMicro in place, then solder the wires like shown above. Pay a
 
 ### Please flash and test your promicro before starting the build!
 
-You can download the **hex file** for R1 owl [**here**](https://officialdoodboard.netlify.app/support/duckboard_R2_R3_default.hex)
+If you chose to **disable the OLED**, download the hex file [**here**](hex/owl_NO_OLED.hex)
+
+If you chose to **enable the OLED**, and made the required modifications, download the hex file [**here**](hex/owl_YES_OLED.hex)
 
 If you wish to compile your own hex file, you can grab the **source code** [**here**](https://github.com/doodboard/source-code)
 
