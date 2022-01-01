@@ -129,7 +129,7 @@ If you wish to continue the build with the OLED disabled, skip to next [section]
 If you wish to use the OLED, and are willing to make the necessary modification to the PCB, <details> <summary>**CLICK HERE**</summary>
 <br/>
 
-If you chose to **enable the OLED**, right click [**here**](hex/owl_YES_OLED.hex) to download the **HEX** file 
+If you chose to **enable the OLED**, right click [**here**](hex/doodboard_owl_yes_oled.hex) to download the **HEX** file 
 
 ### Please flash and test your ProMicro before starting the modification following the steps [here](#flashing) with the HEX file above.
 
@@ -168,7 +168,7 @@ continue to [LED section](#leds)
 
 ### Please flash and test your promicro before starting the build!
 
-If you chose to **disable the OLED**, right click [**here**](hex/owl_NO_OLED.hex) to download the **HEX** file 
+If you chose to **disable the OLED**, right click [**here**](hex/doodboard_owl_no_oled.hex) to download the **HEX** file 
 If you wish to compile your own hex file, you can right click [**here**](/source_code/owl.zip) to grab the **source code** 
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
