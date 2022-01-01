@@ -56,23 +56,21 @@ There are some items you will need in order to build your owl.
 
 | Label  | Part name         | Part quantity | Possible replacement (if needed)  |
 |--------|-------------------|---------------|-----------------------------------|
-| **a**  | Diode             | 70            | 1N4148 THT Diode                  |
-| **b**  | M2 16mm bolts     | 9             |                                   |
-| **b**  | M2 nuts           | 9             |                                   |
-| **b**  | Short standoffs   | 10            | h: 3.5mm                            |
-| **b**  | Long standoffs    | 10            | h: 6.0mm                            |
-| **c**  | LEDs              | 15            | SK6812 3535 Mini (search Aliexpress) |
-| **d**  | Hotswap sockets   | 70            | Kailh hotswap sockets             |
+| **a**  | Hotswap sockets   | 70            | Kailh hotswap sockets             |
+| **b**  | Rotary encoder    | 1             | EC-11 Encoder                     |
+| **c**  | CD4051            | 1             |                                   |
 | &nbsp; |                   |               |                                   |
-| **e**  | Encoder knob      | 1             |                                   |
-| **f**  | Rotary encoder    | 1             | EC-11 Encoder                     |
+| **d**  | LEDs              | 15            | SK6812 3535 Mini (search Aliexpress) |
+| **e**  | Pro Micro         | 1             |                                   |
+| **f**  | OLED              | 1             | .91” 128px x 32px OLED (some may not work. BUY AT YOUR OWN RISK) |
 | &nbsp; |                   |               |                                   |
-| **g**  | Top plate         | 1             |                                   |
-| **h**  | PCB               | 1             |                                   |
-| **i**  | Bottom plate      | 1             |                                   |
+| **g**  | Diode             | 70            | 1N4148 THT Diode                  |
 | &nbsp; |                   |               |                                   |
-| **j**  | Pro Micro         | 1             |                                   |
-| **k**  | OLED              | 1             | .91” 128px x 32px OLED (some may not work. BUY AT YOUR OWN RISK) |
+| **h**  | Encoder knob      | 1             |                                   |
+| **i**  | Short standoffs   | 10            | h: 3.5mm                          |
+| &nbsp; | Long standoffs    | 10            | h: 6.0mm                          |
+| **j**  | M2 16mm bolts     | 9             |                                   |
+| &nbsp; | M2 nuts           | 9             |                                   |
 
 <br/>
 <br/>
@@ -83,11 +81,11 @@ There are some items you will need in order to build your owl.
 
 | Label  | Part name                       | Part quantity |
 |--------|---------------------------------|---------------|
-| **l**  | Acrylics top plate              | 1             |
-| **m**  | Acrylics plate                  | 1             |
-| **n**  | Acrylics boundary (small holes) | 1             |
-| **o**  | Acrylics boundary (big holes)   | 1             |
-| **p**  | Acrylics bottom plate           | 1             |
+| **k**  | Acrylics top plate              | 1             |
+| **l**  | Acrylics plate                  | 1             |
+| **m**  | Acrylics boundary (small holes) | 1             |
+| **n**  | Acrylics boundary (big holes)   | 1             |
+| **o**  | Acrylics bottom plate           | 1             |
 
 <br/>
 <br/>
@@ -291,11 +289,11 @@ It should **increase/decrease** the volume, and **mute/unmute** your media playe
 
 **Install stabilizers now** before moving on if you wish to use them. For 2u switches, I personally prefer the tactility of not having stabs installed, but that's just my personal opinion.
 
-Grab the acrylics plate labelled "l" and "m" above, and gauge where the OLED needs to be. Solder the OLED in place. 
+Grab the acrylics plate labelled "k" and "l" above, and gauge where the OLED needs to be. Solder the OLED in place. 
 
-Then insert 8 x popnuts to the bottom 2 plates. Be **gentle**. If too tight, push it in with a hot soldering iron. Do not apply excessive force or the plate might crack.
+Then insert 8 x popnuts to the bottom 2 plates ("n" & "o"). Be **gentle**. If too tight, push it in with a hot soldering iron. Do not apply excessive force or the plate might crack.
 
-Place the plate "m" on top of PCB. Slide the plate over the encoder. 
+Place the plate "l" on top of PCB. Slide the plate over the encoder. 
 
 Install your switches. The PCB is held in place by the hotswap sockets and the switches. The force of pressing the switches are transferred directly to the acrylic case.
 
