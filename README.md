@@ -11,6 +11,7 @@ last update - Jan/1st/2022
 * [ProMicro](#promicro)
 * [flashing](#flashing)
 * [LEDs](#leds)
+* [CD4051](#CD4051)
 * [diodes](#diodes)
 * [hotswap sockets](#hotswap-sockets)
 * [rotary encoder](#rotary-encoder)
@@ -156,7 +157,7 @@ Then solder the ProMicro in place, then solder the wires like shown above. Pay a
 
 Make sure there is no contact between exposed wire ends and the rest of the components. Using electrical tape to insulate the exposed ends after soldering is recommended.
 
-continue to [section](#leds)
+continue to [LED section](#leds)
 
 </details>
 
@@ -209,13 +210,13 @@ LEDs should be positioned as shown above, **the small black square inside the LE
 
 <br/>
 
-[**This**](https://streamable.com/dimwli) is how I solder the LEDs.
+Please watch this [**short video**](https://streamable.com/dimwli) of how I solder the LEDs.
 1. apply flux to **both** the PCB and the LED with a brush
 2. set the soldering iron to **300C** to prevent burning out the LEDs
-3. place LED on the PCB. Make sure it's positioned** correctly** on the pads.
+3. place LED on the PCB. Make sure it's positioned **correctly** on the pads.
 4. apply a **small** amount of solder to the soldering iron
 5. make a short swiping motion **perpendicular** to the LED
-6. repeat for all **4** pads.
+6. repeat for all **13** pads.
 
 <br/>
 
@@ -225,6 +226,19 @@ The finished solder joints should look like the photo above. You are aiming for 
 Please make sure you only make contact with the iron for **2-3 seconds** at a time. Longer exposure to heat can burn out the LED.
 
 In the case that you burn through even the extra LEDs provided, model number is **SK6812 3535 mini**.
+
+<br/>
+<br/>
+
+## CD4051
+
+### small steps
+
+![CD4051](img/CD4051.jpg)
+
+Nothing fancy here. Solder the CD4051 chip as shown above. Align the small notch on the chip to the print on the PCB.
+Make sure the chip is facing the right direction before you solder it.
+The legs are **malleable**. Bend them a little if they need to be in order to fit the PCB.
 
 <br/>
 <br/>
