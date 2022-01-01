@@ -314,8 +314,6 @@ No fancy tricks. Solder **7** spots circled above. Make sure the encoder is sitt
 The two tabs in the middle are for **structural** purposes only. Apply solder generously. 
 The thinner legs to the top and bottom are **malleable**. Bend them a little if they need to be in order to fit the PCB.
 
-You can also install the encoder knob now. **Align** the small screw to the flat face of encoder shaft. Screw it in for stability.
-
 Plug in the USB cable, and test rotation in both directions, and pressing the encoder shaft in. 
 It should **increase/decrease** the volume, and **mute/unmute** your media player.
 
@@ -384,6 +382,8 @@ Plug in the USB cable once again at this point and ensure **everything** checks 
 ![finished](img/finished_1.jpg)
 
 Place the bottom plate in position and screw in the 4 x M2 nuts to finish off the build. **Install switches and keycaps to your liking, and type away**!
+
+You can also install the encoder knob now. **Align** the small screw to the flat face of encoder shaft. Screw it in for stability.
 
 [**Here**](img/KLE.jpg) is the default **keymap** for reference. 
 
