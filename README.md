@@ -125,15 +125,12 @@ We are in the process of revising the PCB, and we'll be shipping out replacement
 
 If you wish to continue the build with the OLED disabled, skip to next [section](#flashing).
 
-If you with to use the OLED, and are willing to make modification to the PCB, 
-
-<details>
-	<summary>CLICK ME</summary>
+If you with to use the OLED, and are willing to make modification to the PCB, <details> <summary>CLICK ME</summary>
 <br/>
 
 If you chose to **enable the OLED**, and made the required modifications, right click to download the HEX file [**here**](hex/owl_YES_OLED.hex)
 
-### Please flash and test your promicro before starting the modification following the steps [here](#flashing) witht the HEX file above.
+### Please flash and test your ProMicro before starting the modification following the steps [here](#flashing) with the HEX file above.
 
 ![pinout-fix-2](img/pinout_fix_2.jpg)
 
