@@ -125,9 +125,18 @@ We are in the process of revising the PCB, and we'll be shipping out replacement
 
 If you wish to continue the build with the OLED disabled, skip to next [section](#flashing).
 
-If you with to use the OLED, and are willing to make modification to the PCB, read below.
+If you with to use the OLED, and are willing to make modification to the PCB, 
+
+<details>
+	<summary>CLICK ME</summary>
+<br/>
 
 <br/>
+
+### Please flash and test your promicro before starting the build!
+
+If you chose to **enable the OLED**, and made the required modifications, right click to download the HEX file [**here**](hex/owl_YES_OLED.hex)
+
 
 ![pinout-fix-2](img/pinout_fix_2.jpg)
 
@@ -153,6 +162,8 @@ Then solder the ProMicro in place, then solder the wires like shown above. Pay a
 
 Make sure there is no contact between exposed wire ends and the rest of the components. Using electrical tape to insulate the exposed ends after soldering is recommended.
 
+</details>
+
 <br/>
 <br/>
 
@@ -161,8 +172,6 @@ Make sure there is no contact between exposed wire ends and the rest of the comp
 ### Please flash and test your promicro before starting the build!
 
 If you chose to **disable the OLED**, right click to download the HEX file [**here**](hex/owl_NO_OLED.hex)
-
-If you chose to **enable the OLED**, and made the required modifications, right click to download the HEX file [**here**](hex/owl_YES_OLED.hex)
 
 If you wish to compile your own hex file, you can grab the **source code** by right clicking [**here**](/source_code/owl.zip)
 
