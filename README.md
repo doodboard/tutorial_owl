@@ -8,6 +8,7 @@ last update - Jan/1st/2022
 
 * [prerequisites](#prerequisites)
 * [components](#components)
+* [warning](#WARNING)
 * [flashing](#flashing)
 * [LEDs](#leds)
 * [diodes](#diodes)
@@ -121,7 +122,7 @@ We are in the process of revising the PCB, and we'll be shipping out replacement
 
 <br/>
 
-If you wish to continue the build with the OLED disabled, skip to next section.
+If you wish to continue the build with the OLED disabled, skip to next [section](#flashing).
 
 If you with to use the OLED, and are willing to make modification to the PCB, read below.
 
