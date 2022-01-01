@@ -253,11 +253,7 @@ Nothing fancy here. **Align the diodes as shown above**, and solder them in. I r
 There are total of **68** diodes to install: 67 for the 67 switches, and 1 for the push function of rotary encoder.
 
 If you plan to use stabilizers, pay extra attention to the diodes near stab housings. 
-You should** clip the diode legs flush to the PCB** in order to prevent clearing issue. 
-
-Here is an up-close image of what a soldered diode looks like:
-
-![Image of a diode soldered to the PCB](img/diode_soldered.jpg)
+You should **clip the diode legs flush to the PCB** in order to prevent clearing issue. 
 
 <br/>
 <br/>
@@ -274,12 +270,6 @@ If you prefer to solder your switches directly to the PCB, you can skip this pro
 ![Image of a thumb cluster options](img/thumb_cluster.jpg)
 
 Depending on how you would like to use your thumb row, you should solder your hotswap sockets **accordingly**.
-
-
-
-Here is an up-close image of what a soldered hotswap socket looks like:
-
-![Image of a hotswap socket soldered to the PCB](img/hotswap_soldered.jpg)
 
 <br/>
 <br/>
@@ -301,19 +291,15 @@ This is the schematic of the LED wiring for reference.
 
 <br/>
 
-![hotswap2](img/hotswap_2.jpg)
-
 This is also the perfect time to test your **keypresses**. You can either plug in the switches to test the keystrokes, or manually short the hotswap sockets. 
 
 Default hex file for R1 has OLED enabled. ProMicro awaits return signal from OLED.
 So until the display is installed, keypresses will be **delayed**, and you'll have to hold down each keypress a little bit longer for it to register.
 
-To test without installing switches, short the **blue** circles if you have the **hotswap sockets** installed. Short the **yello** circles if you plan to solder the switches in **directly**.
-
 <br/>
 
 ![good soldering](https://cdn-learn.adafruit.com/assets/assets/000/001/978/large1024/tools_Header_Joints.jpg?1396777967)
-If you have any issues, first make sure your LEDs and diodes are **oriented right**, then **check** your soldering joints to see if they all look OK.
+If you have any issues, first make sure your LEDs and diodes are **oriented correctly**, then **double check** your soldering joints to see if they all look OK.
 Here is a reference image in courtesy of **adafruit**. 
 
 <br/>
@@ -406,10 +392,10 @@ Place the bottom plate in position and screw in the 4 x M2 nuts to finish off th
 
 <br/>
 
-Thank you so much for coming along this journey! R4 is planned for **JULY/AUGUST 2021**, I hope to see you guys again, **soon!**
+Thank you so much for coming along this journey! You can find us on [**discord**](https://discord.com/invite/UCEnxWk), or on our [**website**](https://shop.folli.studio) I hope to see you guys again, **soon!**
 
 <br/><br/>
 
 ## what's next?
 
-You can add your favourite stabilizers, switches, and keycaps! If you are interested in changing the default keymap or other functionality of the board, you may also want to learn about [QMK](https://docs.qmk.fm/) and use the [duckboard source code](https://github.com/doodboard/source-code).
+You can add your favourite stabilizers, switches, and keycaps! If you are interested in changing the default keymap or other functionality of the board, you may also want to learn more about [QMK](https://docs.qmk.fm/)
