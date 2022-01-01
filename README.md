@@ -169,7 +169,7 @@ continue to [LED section](#leds)
 ### Please flash and test your promicro before starting the build!
 
 If you chose to **disable the OLED**, right click [**here**](hex/doodboard_owl_no_oled.hex) to download the **HEX** file 
-If you wish to compile your own hex file, you can right click [**here**](/source_code/owl.zip) to grab the **source code** 
+If you wish to compile your own hex file, you can right click [**here**](/source_code/owl_source.zip) to grab the **source code** 
 
 You can grab **QMK toolbox** from [**here**](https://github.com/qmk/qmk_toolbox)
 
