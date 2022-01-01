@@ -8,12 +8,11 @@ last update - Jan/1st/2022
 
 * [prerequisites](#prerequisites)
 * [components](#components)
-* [warning](#WARNING)
+* [ProMicro](#promicro)
 * [flashing](#flashing)
 * [LEDs](#leds)
 * [diodes](#diodes)
 * [hotswap sockets](#hotswap-sockets)
-* [ProMicro](#promicro)
 * [rotary encoder](#rotary-encoder)
 * [top plate](#top-plate)
 * [OLED](#oled)
@@ -101,7 +100,9 @@ There are some items you will need in order to build your owl.
 <br/>
 <br/>
 
-## WARNING
+## ProMicro
+
+### WARNING
 
 ![pinout-fix-1](img/pinout_fix_1.jpg)
 
@@ -136,7 +137,7 @@ First step is to prepare your ProMicro. Cut the included legs like shown above
 
 ![pinout-fix-3](img/pinout_fix_3.jpg)
 
-Then solder them in place like so.
+Then solder them in place like so. Soldering **longer side** of the legs to go into the owl PCB will save you from having to snap the legs later for clearance. <br/> 
 
 <br/>
 
@@ -255,24 +256,6 @@ Depending on how you would like to use your thumb row, you should solder your ho
 Here is an up-close image of what a soldered hotswap socket looks like:
 
 ![Image of a hotswap socket soldered to the PCB](img/hotswap_soldered.jpg)
-
-<br/>
-<br/>
-
-## ProMicro
-
-### Now the real fun begins.
-
-![promicro1](img/promicro_0.jpg)
-
-Again, I recommend using flux, but it's not required. Just makes your life a **little** easier.
-
-a) Solder the legs to ProMicro. Note the **longer side of the legs goes into the PCB** <br/> 
-b) Solder the ProMicro to the PCB, and cut off the pins as much as you can, **without** damaging your solder joints.
-
-After soldering and trimming the pins, your Pro Micro should be attached to your PCB similar to this:
-
-![Image of the Pro Micro soldered to the PCB](img/promicro_soldered.jpg)
 
 <br/>
 <br/>
